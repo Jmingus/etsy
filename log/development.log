@@ -3396,3 +3396,603 @@ Started GET "/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1" for
 
 
 Started GET "/assets/application-a93dca09dedc051f2ec9d658d47123ca.css?body=1" for ::1 at 2015-01-20 23:26:21 -0600
+
+
+Started GET "/" for ::1 at 2015-01-21 08:34:04 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1561ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:34:05 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1279ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/search-a33e24fac9c7cf200ba858938b691148.css?body=1" for ::1 at 2015-01-21 08:34:07 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-21 08:34:07 -0600
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-21 08:34:07 -0600
+
+
+Started GET "/assets/application-a93dca09dedc051f2ec9d658d47123ca.css?body=1" for ::1 at 2015-01-21 08:34:07 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-21 08:34:07 -0600
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-21 08:34:07 -0600
+
+
+Started GET "/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1" for ::1 at 2015-01-21 08:34:07 -0600
+
+
+Started GET "/" for ::1 at 2015-01-21 08:38:57 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3140ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:39:00 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1313ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-21 08:39:02 -0600
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-21 08:39:02 -0600
+
+
+Started GET "/assets/application-a93dca09dedc051f2ec9d658d47123ca.css?body=1" for ::1 at 2015-01-21 08:39:02 -0600
+
+
+Started GET "/assets/search-a33e24fac9c7cf200ba858938b691148.css?body=1" for ::1 at 2015-01-21 08:39:02 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-21 08:39:02 -0600
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-21 08:39:02 -0600
+
+
+Started GET "/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1" for ::1 at 2015-01-21 08:39:02 -0600
+
+
+Started GET "/" for ::1 at 2015-01-21 08:41:01 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 1363ms
+
+SyntaxError (/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected '<'
+...reeze;@output_buffer.append=( <a href="item ["url"]"> Origin...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected tIDENTIFIER, expecting ')'
+...er.append=( <a href="item ["url"]"> Original Item</a> );@out...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...f="item ["url"]"> Original Item</a> );@output_buffer.safe_ap...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: unknown regexp option - p
+unmatched close parenthesis: /a> );@output_buffer.safe_append='</
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:51: syntax error, unexpected '<'
+      </div>
+       ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:52: unknown regexp options - dv
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:53: syntax error, unexpected '<'
+  </div> 
+   ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:58: unknown regexp option - p
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:61: unknown regexp option - l
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:61: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:65: unknown regexp options - dv
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:67: syntax error, unexpected '<'
+</div>'.freeze;@output_buffer.to_s
+ ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:67: unterminated regexp meets end of file):
+  app/views/search/index.html.erb:50: syntax error, unexpected '<'
+  app/views/search/index.html.erb:50: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/search/index.html.erb:50: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/search/index.html.erb:50: unknown regexp option - p
+  app/views/search/index.html.erb:51: syntax error, unexpected '<'
+  app/views/search/index.html.erb:52: unknown regexp options - dv
+  app/views/search/index.html.erb:53: syntax error, unexpected '<'
+  app/views/search/index.html.erb:58: unknown regexp option - p
+  app/views/search/index.html.erb:61: unknown regexp option - l
+  app/views/search/index.html.erb:61: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+  app/views/search/index.html.erb:65: unknown regexp options - dv
+  app/views/search/index.html.erb:67: syntax error, unexpected '<'
+  app/views/search/index.html.erb:67: unterminated regexp meets end of file
+
+
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.2ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (65.7ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:41:44 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 1268ms
+
+SyntaxError (/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected '<'
+...reeze;@output_buffer.append=( <a href=item["url"]> Original ...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...href=item["url"]> Original Item</a> );@output_buffer.safe_ap...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: unknown regexp option - p
+unmatched close parenthesis: /a> );@output_buffer.safe_append='</
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:51: syntax error, unexpected '<'
+      </div>
+       ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:52: unknown regexp options - dv
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:53: syntax error, unexpected '<'
+  </div> 
+   ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:58: unknown regexp option - p
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:61: unknown regexp option - l
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:61: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:65: unknown regexp options - dv
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:67: syntax error, unexpected '<'
+</div>'.freeze;@output_buffer.to_s
+ ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:67: unterminated regexp meets end of file):
+  app/views/search/index.html.erb:50: syntax error, unexpected '<'
+  app/views/search/index.html.erb:50: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/search/index.html.erb:50: unknown regexp option - p
+  app/views/search/index.html.erb:51: syntax error, unexpected '<'
+  app/views/search/index.html.erb:52: unknown regexp options - dv
+  app/views/search/index.html.erb:53: syntax error, unexpected '<'
+  app/views/search/index.html.erb:58: unknown regexp option - p
+  app/views/search/index.html.erb:61: unknown regexp option - l
+  app/views/search/index.html.erb:61: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+  app/views/search/index.html.erb:65: unknown regexp options - dv
+  app/views/search/index.html.erb:67: syntax error, unexpected '<'
+  app/views/search/index.html.erb:67: unterminated regexp meets end of file
+
+
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (58.4ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:46:17 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 1345ms
+
+SyntaxError (/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected '<'
+...reeze;@output_buffer.append=( <a href="item["url"]"> Origina...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected tIDENTIFIER, expecting ')'
+...fer.append=( <a href="item["url"]"> Original Item</a> );@out...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...ef="item["url"]"> Original Item</a> );@output_buffer.safe_ap...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: unknown regexp option - p
+unmatched close parenthesis: /a> );@output_buffer.safe_append='</
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:51: syntax error, unexpected '<'
+      </div>
+       ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:52: unknown regexp options - dv
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:53: syntax error, unexpected '<'
+  </div> 
+   ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:58: unknown regexp option - p
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:61: unknown regexp option - l
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:61: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:65: unknown regexp options - dv
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:67: syntax error, unexpected '<'
+</div>'.freeze;@output_buffer.to_s
+ ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:67: unterminated regexp meets end of file):
+  app/views/search/index.html.erb:50: syntax error, unexpected '<'
+  app/views/search/index.html.erb:50: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/search/index.html.erb:50: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/search/index.html.erb:50: unknown regexp option - p
+  app/views/search/index.html.erb:51: syntax error, unexpected '<'
+  app/views/search/index.html.erb:52: unknown regexp options - dv
+  app/views/search/index.html.erb:53: syntax error, unexpected '<'
+  app/views/search/index.html.erb:58: unknown regexp option - p
+  app/views/search/index.html.erb:61: unknown regexp option - l
+  app/views/search/index.html.erb:61: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+  app/views/search/index.html.erb:65: unknown regexp options - dv
+  app/views/search/index.html.erb:67: syntax error, unexpected '<'
+  app/views/search/index.html.erb:67: unterminated regexp meets end of file
+
+
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.4ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (62.7ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:47:43 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 1225ms
+
+SyntaxError (/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:51: syntax error, unexpected '<'
+...reeze;@output_buffer.append=( <a href=original > Original It...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:51: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...a href=original > Original Item</a> );@output_buffer.safe_ap...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:51: unknown regexp option - p
+unmatched close parenthesis: /a> );@output_buffer.safe_append='</
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:52: syntax error, unexpected '<'
+      </div>
+       ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:53: unknown regexp options - dv
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:54: syntax error, unexpected '<'
+  </div> 
+   ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:59: unknown regexp option - p
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:62: unknown regexp option - l
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:62: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:66: unknown regexp options - dv
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:68: syntax error, unexpected '<'
+</div>'.freeze;@output_buffer.to_s
+ ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:68: unterminated regexp meets end of file):
+  app/views/search/index.html.erb:51: syntax error, unexpected '<'
+  app/views/search/index.html.erb:51: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/search/index.html.erb:51: unknown regexp option - p
+  app/views/search/index.html.erb:52: syntax error, unexpected '<'
+  app/views/search/index.html.erb:53: unknown regexp options - dv
+  app/views/search/index.html.erb:54: syntax error, unexpected '<'
+  app/views/search/index.html.erb:59: unknown regexp option - p
+  app/views/search/index.html.erb:62: unknown regexp option - l
+  app/views/search/index.html.erb:62: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+  app/views/search/index.html.erb:66: unknown regexp options - dv
+  app/views/search/index.html.erb:68: syntax error, unexpected '<'
+  app/views/search/index.html.erb:68: unterminated regexp meets end of file
+
+
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (58.6ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:48:08 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 1340ms
+
+SyntaxError (/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:51: syntax error, unexpected '<'
+...reeze;@output_buffer.append=( <a href=original > Original It...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:51: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...a href=original > Original Item</a> );@output_buffer.safe_ap...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:52: unknown regexp options - dv
+unmatched close parenthesis: /a> );@output_buffer.safe_append='
+      </i
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:53: syntax error, unexpected '<'
+    </div>
+     ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:54: unknown regexp options - dv
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:57: syntax error, unexpected '<', expecting ')'
+  <!--	<ul>
+   ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:57: syntax error, unexpected '<'
+  <!--	<ul>
+      	 ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:59: syntax error, unexpected '<', expecting ')'
+  	<p>'.freeze;@output_buffer.app...
+  	 ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:61: unknown regexp option - l
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:62: syntax error, unexpected '<'
+  	 </ul>-->
+  	  ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:64: unknown regexp options - dv
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:66: syntax error, unexpected '<'
+</div>
+ ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:68: unknown regexp options - dv
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:68: unterminated string meets end of file
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:68: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/search/index.html.erb:51: syntax error, unexpected '<'
+  app/views/search/index.html.erb:51: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/search/index.html.erb:52: unknown regexp options - dv
+  app/views/search/index.html.erb:53: syntax error, unexpected '<'
+  app/views/search/index.html.erb:54: unknown regexp options - dv
+  app/views/search/index.html.erb:57: syntax error, unexpected '<', expecting ')'
+  app/views/search/index.html.erb:57: syntax error, unexpected '<'
+  app/views/search/index.html.erb:59: syntax error, unexpected '<', expecting ')'
+  app/views/search/index.html.erb:61: unknown regexp option - l
+  app/views/search/index.html.erb:62: syntax error, unexpected '<'
+  app/views/search/index.html.erb:64: unknown regexp options - dv
+  app/views/search/index.html.erb:66: syntax error, unexpected '<'
+  app/views/search/index.html.erb:68: unknown regexp options - dv
+  app/views/search/index.html.erb:68: unterminated string meets end of file
+  app/views/search/index.html.erb:68: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (58.1ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:49:12 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (20.3ms)
+Completed 500 Internal Server Error in 2694ms
+
+ActionView::Template::Error (undefined local variable or method `original' for #<#<Class:0x007ffab6880730>:0x007ffab80856a0>):
+    47:     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+    48:       <div class="panel-body">
+    49:         <p><%= raw item["description"] %></p>
+    50:         <% item["url"] = original %>
+    51:       <p> <a href="<% item["url"] %>">Original Item</a> </p>
+    52:       </div>
+    53:     </div>
+  app/views/search/index.html.erb:50:in `block in _app_views_search_index_html_erb___3220924392217882765_70357359688840'
+  app/views/search/index.html.erb:37:in `each'
+  app/views/search/index.html.erb:37:in `_app_views_search_index_html_erb___3220924392217882765_70357359688840'
+
+
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.4ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (68.2ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:49:25 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1307ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/search-a33e24fac9c7cf200ba858938b691148.css?body=1" for ::1 at 2015-01-21 08:49:26 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-21 08:49:26 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-21 08:49:26 -0600
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-21 08:49:26 -0600
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-21 08:49:26 -0600
+
+
+Started GET "/assets/application-a93dca09dedc051f2ec9d658d47123ca.css?body=1" for ::1 at 2015-01-21 08:49:26 -0600
+
+
+Started GET "/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1" for ::1 at 2015-01-21 08:49:26 -0600
+
+
+Started GET "/" for ::1 at 2015-01-21 08:49:28 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1325ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:49:31 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1305ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:49:33 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1510ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:50:41 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 1293ms
+
+SyntaxError (/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected '<', expecting keyword_end
+      <p> '.freeze; <a href=" item["url"]"> ;@outp...
+                     ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...> '.freeze; <a href=" item["url"]"> ;@output_buffer.safe_app...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected ';'
+...eeze; <a href=" item["url"]"> ;@output_buffer.safe_append='O...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:57: syntax error, unexpected keyword_do_block, expecting keyword_end
+...	<li>'.freeze; @results.each do |item| ;@output_buffer.safe_...
+...	                              ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:68: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/search/index.html.erb:50: syntax error, unexpected '<', expecting keyword_end
+  app/views/search/index.html.erb:50: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/views/search/index.html.erb:50: syntax error, unexpected ';'
+  app/views/search/index.html.erb:57: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/search/index.html.erb:68: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (59.0ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:51:11 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 1146ms
+
+SyntaxError (/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected '<', expecting keyword_end
+      <p> '.freeze; <a href=" item["url"]"> ;@outp...
+                     ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...> '.freeze; <a href=" item["url"]"> ;@output_buffer.safe_app...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected ';'
+...eeze; <a href=" item["url"]"> ;@output_buffer.safe_append='O...
+...                               ^
+/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:69: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/search/index.html.erb:50: syntax error, unexpected '<', expecting keyword_end
+  app/views/search/index.html.erb:50: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/views/search/index.html.erb:50: syntax error, unexpected ';'
+  app/views/search/index.html.erb:69: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (71.7ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:51:49 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 1442ms
+
+SyntaxError (/Users/Jacob/theironyard/week_three/tuesday/etsy_search/app/views/search/index.html.erb:50: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...>  <a href= '.freeze;"item["url"]" ;@output_buffer.safe_appe...
+...                               ^):
+  app/views/search/index.html.erb:50: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /Users/Jacob/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (63.9ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:52:14 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1236ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/search-a33e24fac9c7cf200ba858938b691148.css?body=1" for ::1 at 2015-01-21 08:52:15 -0600
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-21 08:52:15 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-21 08:52:15 -0600
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-21 08:52:15 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-21 08:52:15 -0600
+
+
+Started GET "/assets/application-a93dca09dedc051f2ec9d658d47123ca.css?body=1" for ::1 at 2015-01-21 08:52:15 -0600
+
+
+Started GET "/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1" for ::1 at 2015-01-21 08:52:15 -0600
+
+
+Started GET "/" for ::1 at 2015-01-21 08:52:19 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1350ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:53:13 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 1427ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-a93dca09dedc051f2ec9d658d47123ca.css?body=1" for ::1 at 2015-01-21 08:53:14 -0600
+
+
+Started GET "/assets/search-a33e24fac9c7cf200ba858938b691148.css?body=1" for ::1 at 2015-01-21 08:53:14 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-21 08:53:14 -0600
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-21 08:53:14 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-21 08:53:14 -0600
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-21 08:53:14 -0600
+
+
+Started GET "/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1" for ::1 at 2015-01-21 08:53:14 -0600
+
+
+Started GET "/" for ::1 at 2015-01-21 08:53:16 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1282ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-01-21 08:54:26 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1294ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-a93dca09dedc051f2ec9d658d47123ca.css?body=1" for ::1 at 2015-01-21 08:54:27 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-21 08:54:27 -0600
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-21 08:54:27 -0600
+
+
+Started GET "/assets/search-a33e24fac9c7cf200ba858938b691148.css?body=1" for ::1 at 2015-01-21 08:54:27 -0600
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-21 08:54:27 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-21 08:54:27 -0600
+
+
+Started GET "/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1" for ::1 at 2015-01-21 08:54:27 -0600
+
+
+Started GET "/" for ::1 at 2015-01-21 08:54:45 -0600
+Processing by SearchController#index as HTML
+  Rendered search/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1340ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/search-a33e24fac9c7cf200ba858938b691148.css?body=1" for ::1 at 2015-01-21 08:54:46 -0600
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-21 08:54:46 -0600
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-21 08:54:46 -0600
+
+
+Started GET "/assets/application-a93dca09dedc051f2ec9d658d47123ca.css?body=1" for ::1 at 2015-01-21 08:54:46 -0600
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-21 08:54:46 -0600
+
+
+Started GET "/assets/search-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-21 08:54:46 -0600
+
+
+Started GET "/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1" for ::1 at 2015-01-21 08:54:46 -0600
