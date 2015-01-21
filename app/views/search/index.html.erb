@@ -1,3 +1,4 @@
+
 <header class="header">
 
 <h1>Etsy Search</h1>
@@ -34,17 +35,17 @@
 
   <div class="col-md-8"><!--right side-->
 
-<% @results.each do |item| %>
+<% @results.each_with_index do |item, index| %>
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
  <div class="panel panel-default">
    <div class="panel-heading" role="tab" id="headingOne">
      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne<%=index%>" aria-expanded="false" aria-controls="collapseOne<%=index%>"> 
           <%= raw item["title"] %>
         </a>
       </h4>
     </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+    <div id="collapseOne<%=index%>" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
         <p><%= raw item["description"] %></p>
       <p>  <a href="<%=item["url"]%>">Original Listing</a> </p>
