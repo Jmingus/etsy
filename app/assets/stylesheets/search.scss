@@ -1,0 +1,83 @@
+// Place all the styles related to the search controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.header {
+	margin-left: 12%;
+	margin-right: 12%;
+	background-color: #3C8DC5;
+	border-radius: 6px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+
+.header {
+	h1{
+		color: #FFFFFF;
+		margin-left: 20%;
+		margin-right: 20%;
+		border-radius: 2px;
+		padding-left: 17%;
+		font-family: Didot,Ariel,Helvetica;
+		font-size: 48px;
+		margin-bottom: 6px;
+	}
+}
+
+.margin {
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+.search_bar{
+		color: #333333;
+		background-color: #F0F0F0;
+		background-image:linear-gradient(#fcfcfc, #eee);
+		border: 1px solid #d5d5d5;
+		border-radius: 3px;
+		font-size: 13px;
+		cursor: pointer;
+		display: inline;
+		vertical-align: -1px;
+		line-height: 15px;
+		margin-top: 6px;
+		margin-left: 40%;
+}
+
+.search_button{
+		color: #333333;
+		background-color: #6FB7E9;
+		background-image:linear-gradient(#fcfcfc, #eee);
+		border: 1px solid #d5d5d5;
+		border-radius: 3px;
+		font-size: 13px;
+		cursor: pointer;
+		display: inline;
+		vertical-align: -1px;
+		line-height: 15px;
+		margin-top: 6px;
+}
+
+.col-md-4 {
+	ul{
+	list-style: none;
+}
+}
+
+.col-md-4 {
+	ul{
+		p{
+			font-style: Didot;
+		}
+	}
+}
+
+.panel-title{
+	background-color: #6FB7E9;
+	font-family: Ariel;
+	font-style: bold;
+}
+#headingOne{
+	background-color: #6FB7E9;
+}

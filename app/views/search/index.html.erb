@@ -1,0 +1,66 @@
+<header class="header">
+
+<h1>Etsy Search</h1>
+
+</header>
+<div class="margin">
+	<br>
+<%= form_tag('/', method: 'get') do %>
+	<div class="search_bar"><%= search_field_tag('query') %></div>
+	<div class="search_button"><%= submit_tag("Search Esty!") %></div>
+	<% end %>
+	
+		<hr/>
+
+<div class="row">
+  <div class="col-md-4"><!--left side-->
+  	<ul>
+  		<strong><p>Item Result:</p></strong>
+		<% @results.each do |item| %>
+			<li><p><%= raw item["title"] %></p>
+			<img src='<%= item["thumbnailImage"] %>' />
+
+			<div class='price'>
+			<strong>Price: $<%= item["price"] %></strong>
+				<p>Category: <%= item["category_path"] %></p>
+				<hr/>
+		<% end %>
+			</div>
+		
+		</li>
+
+	</ul>
+  </div>
+
+  <div class="col-md-8"><!--right side-->
+
+<% @results.each do |item| %>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+ <div class="panel panel-default">
+   <div class="panel-heading" role="tab" id="headingOne">
+     <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
+          <%= raw item["title"] %>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <p><%= raw item["description"] %></p>
+      </div>
+    </div>
+  </div> 
+  <% end %>
+
+  <!--	<ul>
+  		<li><% @results.each do |item| %>
+  	<p><%= raw item["description"] %></p>
+  	 <% end %>
+  	 	</li>
+  	 </ul>-->
+
+  </div>
+
+</div>
+
+</div>
